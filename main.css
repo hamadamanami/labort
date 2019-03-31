@@ -1,0 +1,109 @@
+/*#.css*/
+
+/*width:375px*/
+
+
+
+*{
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+
+/*writing*/
+
+a{
+	color:rgba(255,255,255,0.8);
+}
+
+a:hover{
+	transition: all 0.5s;
+	color:rgba(255,255,255,1);
+}
+
+
+
+/*erea*/
+
+footer{
+	
+	background-color:#3A3A3A;
+	height:90px;
+	position: sticky;
+	z-index: 10;
+	padding:20px;
+	text-align: center;
+	font-size:80%;
+}
+
+
+article{
+	text-align: center;
+}
+
+h1{
+	font-size:30px;
+	font-weight: normal;
+}
+
+article h2{
+	font-weight: normal;
+	font-size:90%;
+}
+
+article img{
+	margin:60px 0px;
+	padding:10px;
+	opacity: 0.5;
+}
+
+section{
+	text-align: center;
+}
+
+
+section a{
+	display:inline-block;
+	background-color: #2a2a2a;
+	
+}
+
+
+.menu{
+	display: grid;
+	margin: 50px;
+	padding: 10px;
+}
+
+
+.red:hover{
+	transition: all 1s;
+	background-image: url(img/menu01.jpg);
+	background-size: cover;
+	opacity: 0.5;
+	padding:100px;
+	border-radius:50%;
+}
+
+.blue:hover{
+	transition: all 1s;
+	background-image: url(img/menu02.jpg);
+	background-size: cover;
+	opacity: 0.5;
+	padding:100px;
+	border-radius:50%;
+}
+
+.green:hover{
+	transition: all 1s;
+	background-image: url(img/menu03.jpg);
+	background-size: cover;
+	opacity: 0.5;
+	padding:100px;
+	border-radius:50%;
+}
+
+
+
+
+.test{
+}
